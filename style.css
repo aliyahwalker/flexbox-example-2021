@@ -47,18 +47,18 @@ img {
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
 @media(min-width: 681px) {
+
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-}
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.flex-image {
-    flex-basis: 30%;
+    .flex-image {
+        flex-basis: 30%;
+    }
 }
 
 /*********************************************************************
